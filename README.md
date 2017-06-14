@@ -1,1 +1,1 @@
-[goimports导包添加优先级](./GOIMPORTS)
+[修改goimports导包优先级](./GOIMPORTS)
