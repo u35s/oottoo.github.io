@@ -1,17 +1,22 @@
 # 制作自己的linux 
 
 * 编译linux内核 
-* 制作init ramfs
+* 制作基于busybox init的init ramfs
 
 ```
-mkdir -p $1/{bin,dev} 
+mkdir -p $1/{bin,dev,proc,sys,etc} 
+mknod -m 600 $1/dev/console c 5 1
+mknod -m 600 $1/dev/null c 1 2
+mknod -m 600 $1/dev/tty c 4 1
+mknod -m 600 $1/dev/tty1 c 4 1
 cd $1/bin
 cp /bin/busybox .
 "$PWD/busybox" --install .
+cp linuxrc ../init
 cd ..
-cp -a /dev/{null,tty,zero,console} dev
-printf '%s\n' "#! /bin/sh" "exec /bin/sh" > init
-chmod +x init
+cd etc
+printf '%s\n' "::askfirst:/bin/sh" > inittab
+cd ..
 find . | cpio -oHnewc | gzip > ../initramfs.gz
 cd ..
 ```
