@@ -4,3 +4,6 @@
 [制作自己的linux发行版](./MAKE_LINUX_IMG)<br>
 [DOCKER K8S 笔记](./K8S)<br>
 [加密 笔记](./ENCRYPTION)<br>
+[boltdb实现机制分析](./BOLTDB_RUNTIME)<br>
+[weave中paxos(todo)](./)<br>
+[etcd中raft和goraft(todo)](./)<br>
