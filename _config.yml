@@ -1,3 +1,6 @@
-theme: jekyll-theme-cayman
-title: [游山玩水]
-description: [你好,准备好出发了么？]
+author: u35s
+email: jintao7080@gmail.com
+title: 游山玩水
+markdown: kramdown
+host: 0.0.0.0
+port: 4001

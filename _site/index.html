@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+  <script>
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?9fbe6127772dc8dd4c04ce3d43d4d84a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <meta name="keywords" content="游山玩水" />
+  <meta name="description" content="u35s的个人博客">
+  <meta name="author" content="u35s">
+  <!--<link rel="icon" href="./favicon.ico">-->
+
+  <title>首页</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!--<link rel="stylesheet" href="/assets/google-code-prettify/prettify.css">-->
+  <link rel="stylesheet" href="/assets/highlight/styles/default.css">
+  <link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="/assets/css/jumbotron.css" rel="stylesheet">
+
+  <script src="/assets/js/ie-emulation-modes-warning.js"></script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default ">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+        aria-controls="navbar">
+        <span class="sr-only">导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">游山玩水</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right hidden-sm">
+		
+		
+		<li><a href="/">首页</a></li>
+		
+		<li><a href="/feed.xml"></a></li>
+		
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+        <div class="content">
+		<div class="container">
+				<ul>
+						
+								<a href="/2018/01/15/bolt-realization.html"> BoltDB实现机制分析 </a> 
+								<p><p>Bolt是根据Howard Chu的LMDB项目开发的一个存粹的go语言版的key/value存储.
+它的目标是为项目提供一个简单、高效、可靠的嵌入式数据库而不是要求一个完成的数据库服务器，例如Postgres和MySQL.
+用作者的话说,Bolt只提供简单key/value存储,没有其他的特性,以后也不会有,加上Bolt原本的代码精简,质量高,很适合作为对数据库工作原理的感兴趣的同学的第一选择</p>
+
+</p>
+								<br>
+						
+								<a href="/2017/10/11/encrytion.html"> 加密笔记 </a> 
+								<p><p>AES 高级加密标准（英语：Advanced Encryption Standard，缩写：AES），在密码学中又称Rijndael加密法，是美国联邦政府采用的一种区块加密标准。这个标准用来替代原先的DES，已经被多方分析且广为全世界所使用。经过五年的甄选流程，高级加密标准由美国国家标准与技术研究院（NIST）于2001年11月26日发布于FIPS PUB 197，并在2002年5月26日成为有效的标准。2006年，高级加密标准已然成为对称密钥加密中最流行的算法之一。</p>
+
+</p>
+								<br>
+						
+								<a href="/2017/10/10/k8s.html"> k8s笔记 </a> 
+								<p><p>hahahah</p>
+
+</p>
+								<br>
+						
+								<a href="/2017/01/02/make-liux-img.html"> 制作自己的linux </a> 
+								<p><p>编译linux内核 
+ 制作基于busybox init的init ramfs</p>
+
+</p>
+								<br>
+						
+								<a href="/2017/01/01/centos-docker-lm.html"> docker centos 中文乱码 </a> 
+								<p><div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum -y install kde-l10n-Chinese &amp;&amp; yum -y reinstall glibc-common
+localedef -c -f UTF-8 -i zh_CN zh_CN.utf8
+export LC_ALL=zh_CN.utf8
+</code></pre></div></div>
+</p>
+								<br>
+						
+								<a href="/2016/08/09/go-pkg.html"> golang标准库 </a> 
+								<p><p>hahahaha</p>
+
+</p>
+								<br>
+						
+								<a href="/2016/08/08/go-imports.html"> 修改goimports导包优先级 </a> 
+								<p><p>goimports导包按照包的名字长短来排列包的优先级,实际开发中有个多个项目下都有某个库的代码,在自动导入包的时候可能导的是另一个项目的,可实际却要导入本项目中库,经过查看源代码,发现按照下面的步骤即可实现:</p>
+
+</p>
+								<br>
+						
+				</ul>
+		</div>
+</div>
+
+
+    <footer class="footer">
+		<div class="container">
+				<a class="social-links" href="https://github.com/u35s" target="_blank">
+						<i class="social-icons fa fa-github" aria-hidden="true"></i>
+				</a>
+				<p>Copyright © 2017-2018 u35s</p>
+		</div>
+		</div>
+</footer>
+
+
+      
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/jquery.min.js"><\/script>')</script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+<!--<script type="text/javascript" src="/assets/google-code-prettify/prettify.js"></script>-->
+<script type="text/javascript" src="/assets/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script></script>
+
+
+  </body>
+
+</html>
