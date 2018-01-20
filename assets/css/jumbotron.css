@@ -14,7 +14,6 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   color: #7f8c8d;
   background-color:#334a4c;
-	text-align: center;
 }
 /*nav*/
 .navbar{
@@ -25,13 +24,22 @@ body {
   color: #42b983;
 }
 /*nav*/
+
 /*content*/
 .content{
   width: 100%;
   background: #fff;
-  text-align: left;
+}
+.content h3{
+	text-align: center;
+	padding-bottom: 10px;
 }
 /*content*/
+
+/*post*/
+
+/*post*/
+
 /*footer*/
 .footer{
   padding: 40px 0;
