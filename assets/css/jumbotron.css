@@ -27,6 +27,9 @@ body {
 /*nav*/
 
 /*content*/
+.prv-next-link{
+	text-align:center;
+}
 .content{
   width: 100%;
   background: #fff;

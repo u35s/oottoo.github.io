@@ -5,6 +5,14 @@ layout: default
 		<div class="container">
 
 				<h3>{{ page.title }}</h3>
+				<div class="prv-next-link">	
+				{% if page.previous %}
+				<a href="{{ page.previous.url }}">前一篇: {{ page.previous.title  }}</a>
+				{% endif %}
+				{% if page.next %}
+				| <a href="{{ page.next.url }}">下一篇: {{ page.next.title }}</a>
+				{% endif %}
+				</div>
 
 				{{ content }}
 		</div>
